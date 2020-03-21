@@ -1,0 +1,26 @@
+{
+  "name": "share",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node postinstall"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "express": "^4.17.1",
+    "is-admin": "^3.0.0",
+    "prompt-confirm": "^2.0.4",
+    "public-ip": "^4.0.0",
+    "regedit": "^3.0.3",
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {},
+  "bin": {
+    "share": "app.js"
+  }
+}
